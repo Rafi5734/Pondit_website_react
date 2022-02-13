@@ -2,6 +2,7 @@ import React from "react";
 import MainHeader from "../HomeComponents/MainHeader/MainHeader";
 import PhoneMainHeader from "../HomeComponents/PhoneMainHeader/PhoneMainHeader";
 import UpHeader from "../HomeComponents/UpHeader/UpHeader";
+import WindowSize from "../HomeComponents/WindowSizeCount/WindowSize";
 import "./home.css";
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
             <UpHeader></UpHeader>
             <MainHeader></MainHeader>
             <PhoneMainHeader></PhoneMainHeader>
+            <WindowSize></WindowSize>
         </div>
     );
 };
