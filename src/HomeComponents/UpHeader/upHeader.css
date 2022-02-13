@@ -1,0 +1,62 @@
+.upHeader {
+    width: 100%;
+    height: 30vh;
+}
+.upHeader-1 {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    flex-direction: row;
+}
+.upHeader-sub {
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 10vh;
+}
+.pondit-logo {
+    background-image: url("../../images/01_Pondit_Homepage-secondary-logo2.png");
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 15vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 10px;
+}
+.pondit-login {
+    width: 100%;
+    /* border: 1px solid #000; */
+    height: 8.7vh;
+}
+.pondit-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pondit-navbar {
+    position: relative;
+    bottom: 100px;
+}
+.pondit-navbar-nav {
+    border-right: 1px solid #000;
+}
+
+/* .toggle-navbar {
+    height: 50vh;
+} */
+@media only screen and (max-width: 570px) {
+    .upHeader-sub {
+        position: relative;
+        top: 120px;
+        left: 20%;
+    }
+    .pondit-logo {
+        position: relative;
+        bottom: 150px;
+        left: 50px;
+    }
+}
