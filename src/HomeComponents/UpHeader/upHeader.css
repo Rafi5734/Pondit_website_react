@@ -42,22 +42,129 @@
     position: relative;
     /* bottom: 100px; */
 }
-.pondit-navbar-nav {
-    border-right: 1px solid #000;
-}
+
 
 /* .toggle-navbar {
     height: 50vh;
 } */
-@media only screen and (max-width: 570px) {
+
+@media only screen and (max-width: 760px) {
+    .upHeader {
+        height: 50vh;
+    }
     .upHeader-sub {
         position: relative;
         top: 150px;
-        left: 20%;
+        left: 150px;
+        /* border: 1px solid #000; */
+        /* padding: 100px; */
+    }
+    .pondit-login {
+        position: relative;
+        top: 100px;
+        /* border: 1px solid #000; */
     }
     .pondit-logo {
         position: relative;
-        bottom: 130px;
+        bottom: 10px;
+        left: -120px;
+        padding: 50px;
+        /* border: 1px solid #000; */
+    }
+    /* .pondit-logo-img {
+        width: 100px;
+    } */
+}
+@media only screen and (max-width: 590px) {
+    /* /* 
+     */
+    .upHeader-sub {
+        position: relative;
+        top: 120px;
+        left: 130px;
+        /* border: 1px solid #000; */
+        overflow: hidden;
+        width: 100%;
+    }
+    .pondit-login {
+        position: relative;
+        top: 100px;
+        left: 150px;
+        /* border: 1px solid #000; */
+        width: 200px;
+    }
+}
+@media only screen and (max-width: 575px) {
+    /* /* 
+     */
+    .pondit-logo {
+        position: relative;
+        bottom: 140px;
+        left: 0px;
+        padding: 50px;
+        /* border: 1px solid #000; */
+    }
+    .upHeader-sub {
+        position: relative;
+        top: 140px;
+        left: 150px;
+        /* border: 1px solid #000; */
+        overflow: hidden;
+        width: 250px;
+    }
+    .pondit-login {
+        position: relative;
+        top: 5px;
+        left: 180px;
+        /* border: 1px solid #000; */
+        width: 200px;
+    }
+}
+@media screen and (max-width: 412px) {
+    .pondit-logo {
+        position: relative;
+        bottom: 170px;
+        left: 0px;
+        padding: 50px;
+        /* border: 1px solid #000; */
+    }
+    .upHeader-sub {
+        position: relative;
+        top: 140px;
+        left: 70px;
+        /* border: 1px solid #000; */
+        overflow: hidden;
+        width: 250px;
+    }
+    .pondit-login {
+        position: relative;
+        top: -50px;
+        left: 100px;
+        /* border: 1px solid #000; */
+        width: 200px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .pondit-logo {
+        position: relative;
+        bottom: 140px;
+        left: 0px;
+        padding: 50px;
+        /* border: 1px solid #000; */
+    }
+    .upHeader-sub {
+        position: relative;
+        top: 140px;
+        left: 40px;
+        /* border: 1px solid #000; */
+        overflow: hidden;
+        width: 250px;
+    }
+    .pondit-login {
+        position: relative;
+        top: 5px;
         left: 50px;
+        /* border: 1px solid #000; */
+        width: 200px;
     }
 }

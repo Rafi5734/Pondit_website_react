@@ -14,10 +14,10 @@ const UpHeader = () => {
                     <Row className="">
                         <Col sm>
                             <div className="upHeader-sub mt-5 mb-3 order-sm-1">
-                                <p className="upHeader-moral-1 lead">
+                                <p className="upHeader-moral-1 text-nowrap">
                                     ক্ষুদ্র ক্ষুদ্র বালিকণা বিন্দু বিন্দু জল
                                 </p>
-                                <p className="upHeader-moral-2 lead">
+                                <p className="upHeader-moral-2 text-nowrap">
                                     গড়ে তোলে মহাদেশ, সাগর অতল
                                 </p>
                             </div>
