@@ -8,8 +8,6 @@ const Home = () => {
     return (
         <div className="home">
             <UpHeader></UpHeader>
-            <MainHeader></MainHeader>
-            <PhoneMainHeader></PhoneMainHeader>
             <WindowSize></WindowSize>
         </div>
     );

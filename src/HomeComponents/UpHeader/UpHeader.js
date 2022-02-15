@@ -44,7 +44,7 @@ const UpHeader = () => {
                 </Container>
             </div>
 
-            <div className="pondit-navbar">
+            <div className="pondit-navbar overflow-hidden">
                 <Navbar bg="light" expand="lg">
                     <Container>
                         <Navbar.Brand href="#"></Navbar.Brand>
