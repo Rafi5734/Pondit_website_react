@@ -1,0 +1,141 @@
+.assessYourSelf-main-section {
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    bottom: 350px;
+}
+.assessYourSelf-sub-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.assessYourSelf-all-images {
+    /* border: 1px solid #000; */
+    width: 93%;
+}
+.assessYourSelf-all-gallery {
+    /* border: 1px solid #000; */
+    position: relative;
+    right: 50px;
+}
+.assessYourSelf-main-title {
+    font-weight: 400;
+    /* position: relative;
+    right: 50px; */
+}
+.line2-image {
+    position: relative;
+    top: 20px;
+}
+.assessYourSelf-images-inside {
+    background-image: url("../../images/01_Pondit_Homepage_pencil_man-BG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    /* border: 1px solid #000; */
+    position: relative;
+    bottom: 450px;
+}
+.pencil-image {
+    position: relative;
+    left: 150px;
+}
+.assessYourSelf-gallery-sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+@media only screen and (max-width: 1850px) {
+    .assessYourSelf-main-section {
+        /* border: 1px solid #000; */
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        bottom: 120px;
+    }
+}
+@media only screen and (max-width: 1830px) {
+    .assessYourSelf-main-section {
+        /* border: 1px solid #000; */
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        bottom: 170px;
+    }
+}
+@media only screen and (max-width: 1365px) {
+    .assessYourSelf-main-section {
+        /* border: 1px solid #000; */
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        bottom: 370px;
+    }
+    .line2-image {
+        position: relative;
+        right: 50px;
+    }
+}
+@media only screen and (max-width: 1365px) {
+    /*  */
+    .assessYourSelf-images-inside {
+        position: relative;
+        top: 200px;
+    }
+    .pencil-image {
+        width: 55%;
+    }
+    .line2-image {
+        display: none;
+    }
+}
+@media only screen and (max-width: 984px) {
+    /*  */
+    .assessYourSelf-all-images {
+        display: none;
+    }
+    .assessYourSelf-all-gallery {
+        width: 200%;
+        position: relative;
+        left: 0px;
+    }
+}
+@media only screen and (max-width: 920px) {
+    /*  */
+    .assessYourSelf-main-section {
+        /* border: 1px solid #000; */
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        bottom: 450px;
+    }
+}
+@media only screen and (max-width: 636px) {
+    /*  */
+    .assessYourSelf-main-section {
+        /* border: 1px solid #000; */
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        bottom: 300px;
+    }
+}
+@media only screen and (max-width: 533px) {
+    /*  */
+    .assessYourSelf-gallery-sub {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .gallery-details {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .assessYourSelf-main-title {
+        text-align: center;
+    }
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import AssessYourSelf from "../HomeComponents/AssessYourSelf/AssessYourSelf";
 import CareerPath from "../HomeComponents/CareerPath/CareerPath";
 import MainHeader from "../HomeComponents/MainHeader/MainHeader";
 import PhoneMainHeader from "../HomeComponents/PhoneMainHeader/PhoneMainHeader";
@@ -12,6 +13,7 @@ const Home = () => {
             <UpHeader></UpHeader>
             <WindowSize></WindowSize>
             <CareerPath></CareerPath>
+            <AssessYourSelf></AssessYourSelf>
         </div>
     );
 };
