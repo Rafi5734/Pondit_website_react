@@ -15,5 +15,82 @@
 }
 .careerPath-images {
     width: 50%;
-    border: 1px solid #000;
+    height: 52vh;
+    /* border: 1px solid #000; */
+    /* background-image: url("../../images/01_Pondit_Homepage-path-line.png"); */
+    background-repeat: no-repeat;
+    background-position: right center;
+    object-fit: cover;
+    position: relative;
+    top: 140px;
+}
+.careerPath-main-title {
+    font-weight: 400;
+}
+
+.careerPath-Line1 {
+    position: relative;
+    bottom: 0px;
+}
+
+.careerPath-footPrint {
+    position: relative;
+    bottom: 400px;
+    width: 600px;
+}
+
+.careerPath-Man {
+    position: relative;
+    bottom: 450px;
+    /* left: 120px; */
+    right: 450px;
+}
+@media only screen and (max-width: 1834px) {
+    .careerPath-Line1 {
+        position: relative;
+        bottom: 50px;
+    }
+}
+@media only screen and (max-width: 1380px) {
+    .careerPath-footPrint {
+        position: relative;
+        bottom: 400px;
+        width: 500px;
+    }
+    .careerPath-Man {
+        position: relative;
+        bottom: 450px;
+        right: 400px;
+    }
+}
+@media only screen and (max-width: 1365px) {
+    .careerPath-main-second-section {
+        position: relative;
+        bottom: 200px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .careerPath-Man {
+        position: relative;
+        bottom: 630px;
+        right: -100px;
+    }
+    .careerPath-Line1 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .careerPath-description {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* text-align: center; */
+    }
+    .careerPath-images {
+        display: none;
+    }
+    .careerPath-main-title {
+        text-align: center;
+    }
 }
