@@ -1,0 +1,125 @@
+.skills-main-section {
+    border: 1px solid #000;
+    width: 100%;
+    height: 45vh;
+    position: relative;
+    bottom: 615px;
+    /* background-image: url("../../images/01_Pondit_Homepage_skill_lin4.png");
+    background-repeat: no-repeat; */
+    background-position: center;
+    object-fit: cover;
+    /* overflow: hidden; */
+}
+.skills-sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 100px;
+    position: relative;
+    bottom: 800px;
+}
+.skills-short-description {
+    position: relative;
+    bottom: 730px;
+}
+.skills-main-title {
+    border: 1px solid #000;
+    position: relative;
+    right: 30px;
+}
+.skills-main-full-description {
+    border: 1px solid #000;
+}
+.skills-slides {
+    width: 50%;
+}
+.skills-svg-image {
+    width: 50%;
+    border: 1px solid #000;
+}
+.line4 {
+    position: relative;
+    top: 30px;
+    left: 920px;
+}
+@media only screen and (max-width: 1850px) {
+    .skills-main-section {
+        border: 1px solid #000;
+        width: 100%;
+        height: 45vh;
+        position: relative;
+        bottom: 160px;
+        background-position: center;
+        object-fit: cover;
+    }
+}
+@media only screen and (max-width: 1830px) {
+    .skills-main-section {
+        border: 1px solid #000;
+        width: 100%;
+        height: 45vh;
+        position: relative;
+        bottom: 220px;
+        background-position: center;
+        object-fit: cover;
+    }
+}
+@media only screen and (max-width: 1400px) {
+    .skills-main-section {
+        border: 1px solid #000;
+        width: 100%;
+        height: 45vh;
+        position: relative;
+        bottom: 220px;
+        background-position: center;
+        object-fit: cover;
+    }
+    .skills-main-title {
+        position: relative;
+        left: 50px;
+    }
+}
+@media only screen and (max-width: 1365px) {
+    .skills-main-section {
+        border: 1px solid #000;
+        width: 100%;
+        height: 45vh;
+        position: relative;
+        bottom: 415px;
+    }
+    .skills-main-title {
+        position: relative;
+        left: 30px;
+    }
+    .line4 {
+        position: relative;
+        right: -200px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .line4 {
+        display: none;
+    }
+    .skills-main-section {
+        border: 1px solid #000;
+        width: 100%;
+        height: 45vh;
+        position: relative;
+        bottom: -320px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .skills-sub {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .skills-svg-image {
+        display: none;
+    }
+    .skills-slides{
+        width: 100%;
+    }
+}

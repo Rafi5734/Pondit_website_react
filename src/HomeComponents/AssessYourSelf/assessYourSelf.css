@@ -81,13 +81,22 @@
     /*  */
     .assessYourSelf-images-inside {
         position: relative;
-        top: 200px;
+        top: -500px;
     }
     .pencil-image {
         width: 55%;
     }
+    /* .line2-image {
+        display: none;
+    } */
+}
+@media only screen and (max-width: 1200px) {
     .line2-image {
         display: none;
+    }
+    .assessYourSelf-images-inside {
+        position: relative;
+        top: 200px;
     }
 }
 @media only screen and (max-width: 984px) {
