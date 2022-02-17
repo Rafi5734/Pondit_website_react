@@ -1,0 +1,235 @@
+.student-main-section {
+    /* border: 1px solid #000; */
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    bottom: 550px;
+    background-image: url("../../images/01_Pondit_Homepage_student_shap.png");
+    background-repeat: no-repeat;
+}
+.student-sub {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.student-all-slides {
+    /* border: 1px solid #000; */
+    width: 70%;
+    position: relative;
+    top: 100px;
+}
+.card-student-details-sub {
+    position: relative;
+    top: 100px;
+}
+.card-student-details {
+    /* border: 1px solid #000; */
+    width: 100%;
+    position: relative;
+    top: 100px;
+    right: 100px;
+}
+.fir-clickcircle {
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.fir-image-figure {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    position: relative;
+    text-decoration: none;
+}
+
+.fir-image-figure .caption,
+.fir-image-figure figcaption {
+    padding-left: 15px;
+}
+
+html.wf-active .fir-image-figure .fig-author-figure-title {
+    font-family: var(--fir-font-header);
+    font-size: 16px;
+}
+
+.fir-image-figure .fig-author-figure-title {
+    color: var(--fir-color-grey);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+        Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+.fir-imageover {
+    position: relative;
+    display: flex;
+}
+
+.fir-imageover-color {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    background: var(--fir-blue-twitter-alpha);
+    background-image: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+    animation: fadeInFadeOut 2s infinite;
+    top: 0;
+    left: 0;
+}
+
+.fir-imageover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: fadeInFadeOut 2s infinite;
+}
+
+@keyframes fadeInFadeOut {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.card-icons {
+    font-size: 1.7rem;
+}
+.fa-linkedin-in {
+    /* border: 1px solid #000; */
+    padding: 10px;
+    border-radius: 50%;
+}
+.fa-linkedin-in:hover {
+    background-color: #0288d1;
+    color: #fff;
+}
+.fa-facebook-f {
+    /* border: 1px solid #000; */
+    padding: 10px;
+    border-radius: 50%;
+}
+.fa-facebook-f:hover {
+    background-color: #0288d1;
+    color: white;
+}
+.fa-twitter {
+    /* border: 1px solid #000; */
+    padding: 10px;
+    border-radius: 50%;
+}
+.fa-twitter:hover {
+    background-color: #0288d1;
+    color: white;
+}
+@media only screen and (max-width: 1850px) {
+    .student-main-section {
+        /* border: 1px solid #000; */
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        bottom: 50px;
+    }
+}
+@media only screen and (max-width: 1365px) {
+    .student-main-section {
+        /* border: 1px solid #000; */
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        bottom: 250px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .student-main-section {
+        /* border: 1px solid #000; */
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        bottom: 250px;
+    }
+    .card-student-details {
+        position: relative;
+        left: 50px;
+    }
+    .student-all-slides {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .student-sub {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .student-all-slides {
+        position: relative;
+        left: 100px;
+        width: 90%;
+    }
+    .card-student-details {
+        position: relative;
+        left: 100px;
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 765px) {
+    .student-all-slides {
+        position: relative;
+        left: 50px;
+        width: 90%;
+    }
+    .card-student-details {
+        position: relative;
+        left: 50px;
+        width: 90%;
+    }
+    .details-main-title {
+        position: relative;
+        bottom: 100px;
+    }
+    .btn-student {
+        position: relative;
+        bottom: 80px;
+    }
+}
+@media only screen and (max-width: 533px) {
+    .student-main-section {
+        /* border: 1px solid #000; */
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        bottom: 1250px;
+    }
+}
+@media only screen and (max-width: 469px) {
+    .student-all-slides {
+        position: relative;
+        left: 15px;
+        width: 90%;
+    }
+    .card-student-details {
+        position: relative;
+        left: 15px;
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 424px) {
+    .student-all-slides {
+        position: relative;
+        left: 0px;
+        width: 90%;
+    }
+    .card-student-details {
+        position: relative;
+        left: 0px;
+        width: 90%;
+    }
+}
