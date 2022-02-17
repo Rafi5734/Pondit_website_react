@@ -1,5 +1,124 @@
 .partners-main-section {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     width: 100%;
-    height: 30vh;
+    height: 60vh;
+    position: relative;
+    bottom: 800px;
+}
+.fa-chevron-left {
+    cursor: pointer;
+}
+.fa-chevron-right {
+    cursor: pointer;
+}
+.swipper-sliders {
+    height: 100px;
+}
+.swiper-img {
+    width: 400px;
+}
+.mySwiper {
+    width: 31%;
+    position: relative;
+    left: 00px;
+    top: 50px;
+    /* border: 1px solid #000; */
+}
+@media only screen and (max-width: 1850px) {
+    .partners-main-section {
+        /* border: 1px solid #000; */
+        width: 100%;
+        height: 60vh;
+        position: relative;
+        bottom: 200px;
+    }
+}
+@media only screen and (max-width: 1365px) {
+    .partners-main-section {
+        /* border: 1px solid #000; */
+        width: 100%;
+        height: 60vh;
+        position: relative;
+        bottom: 400px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .partners-main-section {
+        /* border: 1px solid #000; */
+        width: 100%;
+        height: 60vh;
+        position: relative;
+        bottom: 100px;
+    }
+    .mySwiper {
+        width: 50%;
+        position: relative;
+        left: 00px;
+        top: 50px;
+        /* border: 1px solid #000; */
+    }
+}
+@media only screen and (max-width: 762px) {
+    .partners-main-section {
+        /* border: 1px solid #000; */
+        width: 100%;
+        height: 60vh;
+        position: relative;
+        bottom: 100px;
+    }
+    .mySwiper {
+        width: 50%;
+        position: relative;
+        left: -50px;
+        top: 50px;
+        /* border: 1px solid #000; */
+    }
+}
+@media only screen and (max-width: 533px) {
+    .partners-main-section {
+        /* border: 1px solid #000; */
+        width: 100%;
+        height: 60vh;
+        position: relative;
+        bottom: 1200px;
+    }
+    .mySwiper {
+        width: 50%;
+        position: relative;
+        left: -50px;
+        top: 50px;
+        /* border: 1px solid #000; */
+    }
+}
+@media only screen and (max-width: 493px) {
+    .partners-main-section {
+        /* border: 1px solid #000; */
+        width: 100%;
+        height: 60vh;
+        position: relative;
+        bottom: 1200px;
+    }
+    .mySwiper {
+        width: 50%;
+        position: relative;
+        left: -80px;
+        top: 50px;
+        /* border: 1px solid #000; */
+    }
+}
+@media only screen and (max-width: 422px) {
+    .partners-main-section {
+        /* border: 1px solid #000; */
+        width: 100%;
+        height: 60vh;
+        position: relative;
+        bottom: 1200px;
+    }
+    .mySwiper {
+        width: 50%;
+        position: relative;
+        left: -90px;
+        top: 50px;
+        /* border: 1px solid #000; */
+    }
 }
