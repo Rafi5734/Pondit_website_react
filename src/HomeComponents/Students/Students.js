@@ -3,7 +3,7 @@ import { Button, Card, Carousel, Container } from "react-bootstrap";
 import "./student.css";
 const Students = () => {
     return (
-        <div className="student-main-section">
+        <div className="student-main-section overflow-hidden">
             <Container>
                 <div className="student-main-section-1">
                     <div className="student-sub">
@@ -40,7 +40,7 @@ const Students = () => {
                                             </figcaption>
                                         </figure>
                                         <Card.Body>
-                                            <Card.Text>
+                                            <Card.Text className="slides-para">
                                                 Some quick example text to build
                                                 on the card title and make up
                                                 the bulk of the card's content.
@@ -84,7 +84,7 @@ const Students = () => {
                                             </figcaption>
                                         </figure>
                                         <Card.Body>
-                                            <Card.Text>
+                                            <Card.Text className="slides-para">
                                                 Some quick example text to build
                                                 on the card title and make up
                                                 the bulk of the card's content.
@@ -128,7 +128,7 @@ const Students = () => {
                                             </figcaption>
                                         </figure>
                                         <Card.Body>
-                                            <Card.Text>
+                                            <Card.Text className="slides-para">
                                                 Some quick example text to build
                                                 on the card title and make up
                                                 the bulk of the card's content.

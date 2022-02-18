@@ -26,6 +26,15 @@
         bottom: -100px;
     }
 }
+@media only screen and (max-width: 1366px) {
+    .footer-main-section {
+        /* border: 1px solid #000; */
+        width: 100%;
+        height: 40vh;
+        position: relative;
+        bottom: 250px;
+    }
+}
 @media only screen and (max-width: 991px) {
     .footer-main-section {
         /* border: 1px solid #000; */

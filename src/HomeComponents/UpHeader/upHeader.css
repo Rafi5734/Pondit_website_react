@@ -43,7 +43,6 @@
     /* bottom: 100px; */
 }
 
-
 /* .toggle-navbar {
     height: 50vh;
 } */
@@ -54,14 +53,14 @@
     }
     .upHeader-sub {
         position: relative;
-        top: 150px;
+        top: 110px;
         left: 150px;
         /* border: 1px solid #000; */
         /* padding: 100px; */
     }
     .pondit-login {
         position: relative;
-        top: 100px;
+        top: 70px;
         /* border: 1px solid #000; */
     }
     .pondit-logo {
@@ -81,15 +80,15 @@
     .upHeader-sub {
         position: relative;
         top: 120px;
-        left: 130px;
+        left: 160px;
         /* border: 1px solid #000; */
         overflow: hidden;
         width: 100%;
     }
     .pondit-login {
         position: relative;
-        top: 100px;
-        left: 150px;
+        top: 70px;
+        left: 170px;
         /* border: 1px solid #000; */
         width: 200px;
     }
@@ -106,16 +105,50 @@
     }
     .upHeader-sub {
         position: relative;
-        top: 140px;
-        left: 150px;
+        top: 120px;
+        left: 180px;
         /* border: 1px solid #000; */
         overflow: hidden;
         width: 250px;
     }
     .pondit-login {
         position: relative;
-        top: 5px;
+        top: -20px;
         left: 180px;
+        /* border: 1px solid #000; */
+        width: 200px;
+    }
+}
+@media only screen and (max-width: 515px) {
+    .upHeader-sub {
+        position: relative;
+        top: 120px;
+        left: 140px;
+        /* border: 1px solid #000; */
+        overflow: hidden;
+        width: 250px;
+    }
+    .pondit-login {
+        position: relative;
+        top: -30px;
+        left: 150px;
+        /* border: 1px solid #000; */
+        width: 200px;
+    }
+}
+@media only screen and (max-width: 439px) {
+    .upHeader-sub {
+        position: relative;
+        top: 120px;
+        left: 100px;
+        /* border: 1px solid #000; */
+        overflow: hidden;
+        width: 250px;
+    }
+    .pondit-login {
+        position: relative;
+        top: -30px;
+        left: 110px;
         /* border: 1px solid #000; */
         width: 200px;
     }

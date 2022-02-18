@@ -4,7 +4,7 @@ import "./footer.css";
 import FooterLogo from "../../images/01_Pondit_Homepage_footer_logo.png";
 const Footer = () => {
     return (
-        <div className="footer-main-section">
+        <div className="footer-main-section overflow-hidden">
             <Container className="footer-wrapper-1">
                 <div className="footer-logo-BG">
                     <img src={FooterLogo}></img>

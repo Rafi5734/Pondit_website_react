@@ -96,6 +96,21 @@
         display: none;
     }
 }
+@media only screen and (max-width: 1199px) {
+    .careerPath-Man {
+        position: relative;
+        bottom: 230px;
+        right: -100px;
+    }
+    .careerPath-footPrint {
+        position: relative;
+        bottom: 00px;
+        width: 500px;
+    }
+    .careerPath-Line1 {
+        display: none;
+    }
+}
 @media only screen and (max-width: 1171px) {
     .careerPath-Man {
         position: relative;
@@ -142,6 +157,15 @@
         width: 8500%;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media only screen and (max-width: 654px) {
+    .careerPath-main-second-section {
+        /* border-top: 1px solid #000; */
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        top: -60px;
     }
 }
 @media only screen and (max-width: 635px) {

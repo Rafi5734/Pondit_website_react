@@ -73,7 +73,47 @@
     }
     .skills-main-title {
         position: relative;
-        left: 50px;
+        left: -30px;
+    }
+}
+@media only screen and (max-width: 1399px) {
+    .skills-main-section {
+        /* border: 1px solid #000; */
+        width: 100%;
+        height: 45vh;
+        position: relative;
+        bottom: 220px;
+        background-position: center;
+        object-fit: cover;
+    }
+    .skills-main-title {
+        position: relative;
+        left: 10px;
+    }
+    .line4 {
+        position: relative;
+        top: 30px;
+        left: 870px;
+    }
+}
+@media only screen and (max-width: 1366px) {
+    .skills-main-section {
+        /* border: 1px solid #000; */
+        width: 100%;
+        height: 45vh;
+        position: relative;
+        bottom: 330px;
+        background-position: center;
+        object-fit: cover;
+    }
+    .skills-main-title {
+        position: relative;
+        left: 10px;
+    }
+    .line4 {
+        position: relative;
+        top: 30px;
+        left: 870px;
     }
 }
 @media only screen and (max-width: 1365px) {
@@ -86,14 +126,59 @@
     }
     .skills-main-title {
         position: relative;
-        left: 30px;
+        left: 10px;
     }
     .line4 {
         position: relative;
         right: -200px;
     }
 }
+@media only screen and (max-width: 1243px) {
+    .skills-main-section {
+        /* border: 1px solid #000; */
+        width: 100%;
+        height: 45vh;
+        position: relative;
+        bottom: 415px;
+    }
+    .skills-main-title {
+        position: relative;
+        left: 0px;
+    }
+    .line4 {
+        position: relative;
+        right: -150px;
+    }
+}
 @media only screen and (max-width: 1200px) {
+    .skills-main-section {
+        /* border: 1px solid #000; */
+        width: 100%;
+        height: 45vh;
+        position: relative;
+        bottom: 300px;
+        top: 450px;
+    }
+    .line4 {
+        display: none;
+    }
+    .skills-main-section {
+        /* border: 1px solid #000; */
+        width: 100%;
+        height: 45vh;
+        position: relative;
+        bottom: -320px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .skills-main-section {
+        /* border: 1px solid #000; */
+        width: 100%;
+        height: 45vh;
+        position: relative;
+        bottom: 300px;
+        top: 550px;
+    }
     .line4 {
         display: none;
     }
@@ -119,20 +204,90 @@
         width: 100%;
     }
 }
+@media only screen and (max-width: 984px) {
+    .skills-main-section {
+        /* border: 1px solid #000; */
+        width: 100%;
+        height: 45vh;
+        position: relative;
+        bottom: 300px;
+        top: 300px;
+    }
+    .line4 {
+        display: none;
+    }
+    .skills-main-section {
+        /* border: 1px solid #000; */
+        width: 100%;
+        height: 45vh;
+        position: relative;
+        bottom: -320px;
+    }
+}
+@media only screen and (max-width: 920px) {
+    .skills-main-section {
+        /* border: 1px solid #000; */
+        width: 100%;
+        height: 45vh;
+        position: relative;
+        bottom: 300px;
+        top: 200px;
+    }
+    .line4 {
+        display: none;
+    }
+    .skills-main-section {
+        /* border: 1px solid #000; */
+        width: 100%;
+        height: 45vh;
+        position: relative;
+        bottom: -320px;
+    }
+}
+@media only screen and (max-width: 920px) {
+    .skills-main-section {
+        /* border: 1px solid #000; */
+        width: 100%;
+        height: 45vh;
+        position: relative;
+        bottom: 300px;
+        top: 400px;
+    }
+    .line4 {
+        display: none;
+    }
+    /* .skills-main-section {
+        
+        width: 100%;
+        height: 45vh;
+        position: relative;
+        bottom: -320px;
+    } */
+}
 @media only screen and (max-width: 533px) {
     .skills-main-section {
         /* border: 1px solid #000; */
         width: 100%;
         height: 45vh;
         position: relative;
-        bottom: 615px;
-        background-position: center;
-        object-fit: cover;
-        margin-top: 1400px;
+        bottom: 300px;
+        top: 400px;
+        margin-top: 300px;
     }
+    .line4 {
+        display: none;
+    }
+    /* .skills-main-section {
+        
+        width: 100%;
+        height: 45vh;
+        position: relative;
+        bottom: -320px;
+    } */
 }
+
 @media only screen and (max-width: 470px) {
-    .skills-main-title{
+    .skills-main-title {
         position: relative;
         right: 100px;
     }

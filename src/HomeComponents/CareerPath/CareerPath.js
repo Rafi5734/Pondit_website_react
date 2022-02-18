@@ -7,7 +7,7 @@ import Line1 from "../../images/01_Pondit_Homepage-path-line.png";
 
 const CareerPath = () => {
     return (
-        <div className="careerPath-main-second-section">
+        <div className="careerPath-main-second-section overflow-hidden">
             <Container className="careerPath-sub">
                 <div className="careerPath-description">
                     <h1 className="mb-3 careerPath-main-title">

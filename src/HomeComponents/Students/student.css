@@ -139,6 +139,15 @@ html.wf-active .fir-image-figure .fig-author-figure-title {
         bottom: 50px;
     }
 }
+@media only screen and (max-width: 1366px) {
+    .student-main-section {
+        /* border: 1px solid #000; */
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        bottom: 200px;
+    }
+}
 @media only screen and (max-width: 1365px) {
     .student-main-section {
         /* border: 1px solid #000; */
@@ -147,6 +156,11 @@ html.wf-active .fir-image-figure .fig-author-figure-title {
         position: relative;
         bottom: 250px;
     }
+    .student-all-slides {
+        position: relative;
+        right: 50px;
+        width: 100%;
+    }
 }
 @media only screen and (max-width: 1200px) {
     .student-main-section {
@@ -154,7 +168,7 @@ html.wf-active .fir-image-figure .fig-author-figure-title {
         width: 100%;
         height: 100vh;
         position: relative;
-        bottom: 250px;
+        bottom: 100px;
     }
     .card-student-details {
         position: relative;
@@ -180,11 +194,37 @@ html.wf-active .fir-image-figure .fig-author-figure-title {
         width: 90%;
     }
 }
+@media only screen and (max-width: 984px) {
+    .student-main-section {
+        /* border: 1px solid #000; */
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        bottom: 250px;
+    }
+}
+@media only screen and (max-width: 984px) {
+    .student-main-section {
+        /* border: 1px solid #000; */
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        bottom: 100px;
+    }
+}
 @media only screen and (max-width: 765px) {
+    .student-main-section {
+        /* border: 1px solid #000; */
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        bottom: 200px;
+    }
     .student-all-slides {
         position: relative;
         left: 50px;
         width: 90%;
+        margin-bottom: 50px;
     }
     .card-student-details {
         position: relative;
@@ -206,14 +246,31 @@ html.wf-active .fir-image-figure .fig-author-figure-title {
         width: 100%;
         height: 100vh;
         position: relative;
-        bottom: 1250px;
+        bottom: 200px;
+        margin-top: 100px;
+    }
+    .student-all-slides {
+        position: relative;
+        left: 50px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (max-width: 533px) {
+    .student-main-section {
+        /* border: 1px solid #000; */
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        bottom: 200px;
+        margin-top: 100px;
     }
 }
 @media only screen and (max-width: 469px) {
     .student-all-slides {
         position: relative;
         left: 15px;
-        width: 90%;
+        width: 100%;
     }
     .card-student-details {
         position: relative;
@@ -226,6 +283,24 @@ html.wf-active .fir-image-figure .fig-author-figure-title {
         position: relative;
         left: 0px;
         width: 90%;
+    }
+    .slides-para {
+        width: 300px;
+    }
+    .card-student-details {
+        position: relative;
+        left: 0px;
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .student-all-slides {
+        position: relative;
+        left: 0px;
+        width: 90%;
+    }
+    .slides-para {
+        width: 300px;
     }
     .card-student-details {
         position: relative;

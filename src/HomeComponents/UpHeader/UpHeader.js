@@ -9,7 +9,7 @@ import SuccessImage from "../../images/01_Pondit_Homepage-success.png";
 const UpHeader = () => {
     return (
         <>
-            <div className="upHeader">
+            <div className="upHeader overflow-hidden">
                 <Container>
                     <Row className="">
                         <Col sm>

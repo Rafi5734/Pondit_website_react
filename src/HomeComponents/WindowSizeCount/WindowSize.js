@@ -12,7 +12,7 @@ const WindowSize = () => {
     const size = useWindowSize();
     // console.log(size.width <= 450);
     return (
-        <div className="">
+        <div className="overflow-hidden">
             <div className="overflow-hidden">
                 {/* {size.width}px / {size.height}px */}
                 {size.width <= 654 ? (

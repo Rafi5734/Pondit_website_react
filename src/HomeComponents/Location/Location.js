@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 import "./location.css";
 const Location = () => {
     return (
-        <div className="location-main">
+        <div className="location-main overflow-hidden">
             <Container className="location-main-wrapper">
                 <Container className="location-main-sub">
                     <h1 className="location-title text-center fw-normal mb-5 mt-3">

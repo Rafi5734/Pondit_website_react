@@ -10,7 +10,7 @@ import { Container } from "react-bootstrap";
 
 const Partners = () => {
     return (
-        <div className="partners-main-section">
+        <div className="partners-main-section overflow-hidden">
             <h1 className="text-center fw-normal">
                 Partners
             </h1>
