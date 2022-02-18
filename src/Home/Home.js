@@ -1,6 +1,7 @@
 import React from "react";
 import AssessYourSelf from "../HomeComponents/AssessYourSelf/AssessYourSelf";
 import CareerPath from "../HomeComponents/CareerPath/CareerPath";
+import Location from "../HomeComponents/Location/Location";
 import MainHeader from "../HomeComponents/MainHeader/MainHeader";
 import Partners from "../HomeComponents/Partners/Partners";
 import PhoneMainHeader from "../HomeComponents/PhoneMainHeader/PhoneMainHeader";
@@ -20,6 +21,7 @@ const Home = () => {
             <Skills></Skills>
             <Students></Students>
             <Partners></Partners>
+            <Location></Location>
         </div>
     );
 };

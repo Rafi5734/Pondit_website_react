@@ -1,0 +1,170 @@
+.location-main {
+    /* border: 1px solid #000; */
+    position: relative;
+    bottom: 700px;
+    width: 100%;
+    height: 90vh;
+    background-image: url("../../images/01_Pondit_Homepage_contact_map.png");
+    /*  */
+}
+
+.location-main-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 100px;
+    grid-gap: 20px;
+}
+.location-main-sub {
+    /* border: 1px solid #000; */
+    width: 90%;
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin-top: 150px;
+}
+.contact-main {
+    /* border: 1px solid #000; */
+    width: 110%;
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin-top: 150px;
+}
+.location-details {
+    /* border: 1px solid #000; */
+    width: 50%;
+    position: relative;
+    left: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.fa-location-arrow {
+    font-size: 1.7rem;
+}
+.fa-phone-flip {
+    font-size: 1.7rem;
+}
+.fa-envelope {
+    font-size: 1.7rem;
+}
+.location-all-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.fa-facebook-f {
+    font-size: 1.7rem;
+}
+.fa-twitter {
+    font-size: 1.7rem;
+}
+.fa-linkedin-in {
+    font-size: 1.7rem;
+}
+.fa-youtube {
+    font-size: 1.7rem;
+    /* border: 1px solid #000; */
+    padding: 10px;
+    border-radius: 50%;
+}
+.fa-youtube:hover {
+    background-color: #0288d1;
+    color: #fff;
+}
+@media only screen and (max-width: 1850px) {
+    .location-main {
+        /* border: 1px solid #000; */
+        position: relative;
+        bottom: 00px;
+        width: 100%;
+        height: 100vh;
+        background-image: url("../../images/01_Pondit_Homepage_contact_map.png");
+        /*  */
+    }
+}
+@media only screen and (max-width: 1850px) {
+    .location-main {
+        /* border: 1px solid #000; */
+        position: relative;
+        bottom: 00px;
+        width: 100%;
+        height: 110vh;
+        background-image: url("../../images/01_Pondit_Homepage_contact_map.png");
+        /*  */
+    }
+}
+@media only screen and (max-width: 1850px) {
+    .location-main {
+        /* border: 1px solid #000; */
+        position: relative;
+        bottom: -100px;
+        width: 100%;
+        height: 180vh;
+        background-image: url("../../images/01_Pondit_Homepage_contact_map.png");
+        /*  */
+    }
+    .location-main-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 100px;
+        grid-gap: 20px;
+    }
+    .location-details {
+        position: relative;
+        left: 180px;
+    }
+    .contact-main {
+        height: 75vh;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .location-main {
+        /* border: 1px solid #000; */
+        position: relative;
+        bottom: -100px;
+        width: 100%;
+        height: 200vh;
+        background-image: url("../../images/01_Pondit_Homepage_contact_map.png");
+        /*  */
+    }
+    .location-details {
+        position: relative;
+        left: 140px;
+    }
+    .contact-main {
+        height: 85vh;
+    }
+}
+@media only screen and (max-width: 570px) {
+    .location-main {
+        /* border: 1px solid #000; */
+        position: relative;
+        bottom: -100px;
+        width: 100%;
+        height: 230vh;
+        background-image: url("../../images/01_Pondit_Homepage_contact_map.png");
+        /*  */
+    }
+}
+@media only screen and (max-width: 533px) {
+    .location-main {
+        /* border: 1px solid #000; */
+        position: relative;
+        bottom: 1000px;
+        width: 100%;
+        height: 230vh;
+        background-image: url("../../images/01_Pondit_Homepage_contact_map.png");
+        /*  */
+    }
+    .location-details {
+        position: relative;
+        left: 100px;
+    }
+}
+@media only screen and (max-width: 460px) {
+    .location-details {
+        position: relative;
+        left: 100px;
+    }
+}
