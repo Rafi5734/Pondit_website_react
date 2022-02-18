@@ -82,6 +82,12 @@
         background-image: url("../../images/01_Pondit_Homepage_contact_map.png");
         /*  */
     }
+    .location-main-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 100px;
+        grid-gap: 20px;
+    }
 }
 @media only screen and (max-width: 1850px) {
     .location-main {
@@ -100,22 +106,65 @@
         position: relative;
         bottom: -100px;
         width: 100%;
-        height: 180vh;
+        height: 120vh;
         background-image: url("../../images/01_Pondit_Homepage_contact_map.png");
         /*  */
     }
-    .location-main-wrapper {
+    /* .location-main-wrapper {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin-top: 100px;
         grid-gap: 20px;
-    }
+    } */
     .location-details {
         position: relative;
         left: 180px;
     }
     .contact-main {
         height: 75vh;
+    }
+}
+@media only screen and (max-width: 1390px) {
+    .location-details {
+        position: relative;
+        left: 130px;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .location-details {
+        position: relative;
+        left: 90px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .location-main {
+        /* border: 1px solid #000; */
+        position: relative;
+        bottom: 00px;
+        width: 100%;
+        height: 200vh;
+        background-image: url("../../images/01_Pondit_Homepage_contact_map.png");
+        /*  */
+    }
+    .location-details {
+        position: relative;
+        left: 90px;
+    }
+    .location-details {
+        width: 100%;
+        position: relative;
+        left: 0px;
+    }
+    .contact-main {
+        width: 120px;
+        position: relative;
+        bottom: 100px;
+    }
+    .location-main-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 100px;
+        grid-gap: 0px;
     }
 }
 @media only screen and (max-width: 767px) {
@@ -130,7 +179,7 @@
     }
     .location-details {
         position: relative;
-        left: 140px;
+        left: 0px;
     }
     .contact-main {
         height: 85vh;
@@ -162,9 +211,30 @@
         left: 100px;
     }
 }
+@media only screen and (max-width: 532px) {
+    .location-main {
+        /* border: 1px solid #000; */
+        position: relative;
+        bottom: 1000px;
+        width: 100%;
+        height: 230vh;
+        background-image: url("../../images/01_Pondit_Homepage_contact_map.png");
+        /*  */
+    }
+    .location-details {
+        position: relative;
+        left: 0px;
+    }
+}
 @media only screen and (max-width: 460px) {
     .location-details {
         position: relative;
         left: 100px;
+    }
+}
+@media only screen and (max-width: 459px) {
+    .location-details {
+        position: relative;
+        left: 0px;
     }
 }

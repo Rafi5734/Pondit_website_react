@@ -18,7 +18,7 @@ const Location = () => {
                     </p>
                     <div className="location-details mb-4">
                         <i class="fa-solid fa-location-arrow"></i>
-                        <span className="ms-3">
+                        <span className="ms-3 location-address">
                             RH Home Center, Green Road 1215 Dhaka, Bangladesh.
                         </span>
                     </div>
