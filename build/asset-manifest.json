@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.40ac8371.css",
+    "main.js": "/static/js/main.9a26f970.js",
+    "static/js/787.afe31af3.chunk.js": "/static/js/787.afe31af3.chunk.js",
+    "static/media/01_Pondit_Homepage_contact_map.png": "/static/media/01_Pondit_Homepage_contact_map.504c45a5e3be22d39be8.png",
+    "static/media/01_Pondit_Homepage_Updated_homePage.png": "/static/media/01_Pondit_Homepage_Updated_homePage.6caeaec5f8b1defce073.png",
+    "static/media/01_Pondit_Homepage_skill_bg.png": "/static/media/01_Pondit_Homepage_skill_bg.ba9b1e2c9fd4f049089d.png",
+    "static/media/01_Pondit_Homepag_pencil_man.png": "/static/media/01_Pondit_Homepag_pencil_man.8389561c5d322bfcf78c.png",
+    "static/media/01_Pondit_Homepage_slide_svg.png": "/static/media/01_Pondit_Homepage_slide_svg.13aa69a7ac823234bd53.png",
+    "static/media/picture-gallery.png": "/static/media/picture-gallery.a826eb662c6585cdc2c0.png",
+    "static/media/document-gallery.png": "/static/media/document-gallery.65a242d910291af8f9a3.png",
+    "static/media/video-gallery.png": "/static/media/video-gallery.1d763f5feb2f56447c10.png",
+    "static/media/01_Pondit_Homepage_slides_all.png": "/static/media/01_Pondit_Homepage_slides_all.261108a9698c07933bbe.png",
+    "static/media/01_Pondit_Homepage_pencil_man-BG.png": "/static/media/01_Pondit_Homepage_pencil_man-BG.1fe5b5511b62ed1c6fb4.png",
+    "static/media/01_Pondit_Homepage-foot-print.png": "/static/media/01_Pondit_Homepage-foot-print.52652226ed61e8a02a42.png",
+    "index.html": "/index.html",
+    "main.40ac8371.css.map": "/static/css/main.40ac8371.css.map",
+    "main.9a26f970.js.map": "/static/js/main.9a26f970.js.map",
+    "787.afe31af3.chunk.js.map": "/static/js/787.afe31af3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40ac8371.css",
+    "static/js/main.9a26f970.js"
+  ]
+}
