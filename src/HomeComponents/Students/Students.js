@@ -13,9 +13,8 @@ const Students = () => {
                                     <Card style={{ width: "28rem" }}>
                                         <figure class="fir-image-figure p-3">
                                             <a
-                                                class="fir-imageover"
-                                                rel="noopener"
-                                                target="_blank"
+                                                className="fir-imageover"
+                                                rel="#"
                                                 href="https://twitter.com/_davideast"
                                             >
                                                 <img
@@ -25,8 +24,9 @@ const Students = () => {
                                                 />
                                                 <div class="fir-imageover-color"></div>
                                                 <img
-                                                    class="fir-imageover-image fir-clickcircle"
+                                                    className="fir-imageover-image fir-clickcircle"
                                                     src="https://fir-rollup.firebaseapp.com/twitter-logo.png"
+                                                    alt="circle-img"
                                                 />
                                             </a>
 
@@ -59,7 +59,6 @@ const Students = () => {
                                             <a
                                                 class="fir-imageover"
                                                 rel="noopener"
-                                                target="_blank"
                                                 href="https://twitter.com/_davideast"
                                             >
                                                 <img
@@ -71,6 +70,7 @@ const Students = () => {
                                                 <img
                                                     class="fir-imageover-image fir-clickcircle"
                                                     src="https://fir-rollup.firebaseapp.com/twitter-logo.png"
+                                                    alt="click-img"
                                                 />
                                             </a>
 
@@ -103,7 +103,6 @@ const Students = () => {
                                             <a
                                                 class="fir-imageover"
                                                 rel="noopener"
-                                                target="_blank"
                                                 href="https://twitter.com/_davideast"
                                             >
                                                 <img
@@ -115,6 +114,7 @@ const Students = () => {
                                                 <img
                                                     class="fir-imageover-image fir-clickcircle"
                                                     src="https://fir-rollup.firebaseapp.com/twitter-logo.png"
+                                                    alt="click-img-3"
                                                 />
                                             </a>
 
@@ -150,7 +150,7 @@ const Students = () => {
                                 </h1>
                                 <Button
                                     variant="outline-dark"
-                                    className="btn-student"
+                                    className="btn-student mt-4 mb-5"
                                 >
                                     SEE ALL COURSES STORY{" "}
                                     <i class="fa-solid fa-arrow-right-long"></i>

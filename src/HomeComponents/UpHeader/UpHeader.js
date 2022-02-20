@@ -27,6 +27,7 @@ const UpHeader = () => {
                                 <img
                                     className="pondit-logo-img mt-5 mb-3"
                                     src={PonditLogo}
+                                    alt="PonditLogo"
                                 ></img>
                             </div>
                         </Col>
@@ -65,6 +66,7 @@ const UpHeader = () => {
                                     <img
                                         src={CareerImage}
                                         className="me-2 mt-2"
+                                        alt="career-img"
                                     ></img>
                                     CAREER PATH
                                 </Nav.Link>
@@ -75,6 +77,7 @@ const UpHeader = () => {
                                     <img
                                         src={AssessImage}
                                         className="ms-2 me-2"
+                                        alt="assess img"
                                     ></img>
                                     ASSESS YOURSELF
                                 </Nav.Link>
@@ -86,6 +89,7 @@ const UpHeader = () => {
                                     <img
                                         src={ComputerImage}
                                         className="ms-2 me-2"
+                                        alt="computer-img"
                                     ></img>
                                     ALL COURSES
                                 </Nav.Link>
@@ -93,6 +97,7 @@ const UpHeader = () => {
                                     <img
                                         src={SuccessImage}
                                         className="ms-2 me-2"
+                                        alt="success-img"
                                     ></img>
                                     SUCCESS STORY
                                 </Nav.Link>

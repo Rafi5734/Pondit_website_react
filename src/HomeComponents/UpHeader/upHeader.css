@@ -156,7 +156,7 @@
 @media screen and (max-width: 412px) {
     .pondit-logo {
         position: relative;
-        bottom: 170px;
+        bottom: 140px;
         left: 0px;
         padding: 50px;
         /* border: 1px solid #000; */
@@ -164,14 +164,14 @@
     .upHeader-sub {
         position: relative;
         top: 140px;
-        left: 70px;
+        left: 80px;
         /* border: 1px solid #000; */
         overflow: hidden;
         width: 250px;
     }
     .pondit-login {
         position: relative;
-        top: -50px;
+        top: -20px;
         left: 100px;
         /* border: 1px solid #000; */
         width: 200px;

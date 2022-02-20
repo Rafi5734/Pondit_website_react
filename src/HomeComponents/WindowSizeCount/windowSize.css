@@ -27,13 +27,13 @@
 }
 .skills {
     position: relative;
-    bottom: 310px;
+    bottom: 330px;
     left: 940px;
 }
 .grow {
     position: relative;
-    bottom: 500px;
-    left: 1300px;
+    bottom: 550px;
+    left: 1270px;
 }
 .phone-Main-Header {
     /* border: 1px solid #000; */
@@ -63,23 +63,27 @@
 @media screen and (max-width: 1850px) {
     .career-path {
         position: relative;
-        bottom: 400px;
+        bottom: 390px;
         left: 400px;
+        line-height: 10px;
     }
     .assess-self {
         position: relative;
-        bottom: 590px;
+        bottom: 530px;
         left: 780px;
+        line-height: 10px;
     }
     .skills {
         position: relative;
-        bottom: 310px;
+        bottom: 180px;
         left: 900px;
+        line-height: 13px;
     }
     .grow {
         position: relative;
-        bottom: 450px;
-        left: 1250px;
+        bottom: 320px;
+        left: 1220px;
+        line-height: 10px;
     }
 }
 @media screen and (max-width: 1750px) {
@@ -90,18 +94,18 @@
     }
     .assess-self {
         position: relative;
-        bottom: 590px;
+        bottom: 530px;
         left: 730px;
     }
     .skills {
         position: relative;
-        bottom: 270px;
-        left: 850px;
+        bottom: 170px;
+        left: 830px;
     }
     .grow {
         position: relative;
-        bottom: 450px;
-        left: 1160px;
+        bottom: 320px;
+        left: 1130px;
     }
 }
 @media screen and (max-width: 1650px) {
@@ -112,18 +116,18 @@
     }
     .assess-self {
         position: relative;
-        bottom: 590px;
-        left: 680px;
+        bottom: 540px;
+        left: 690px;
     }
     .skills {
         position: relative;
-        bottom: 280px;
+        bottom: 180px;
         left: 780px;
     }
     .grow {
         position: relative;
-        bottom: 470px;
-        left: 1090px;
+        bottom: 320px;
+        left: 1070px;
     }
 }
 @media screen and (max-width: 1550px) {
@@ -134,40 +138,40 @@
     }
     .assess-self {
         position: relative;
-        bottom: 590px;
-        left: 630px;
+        bottom: 530px;
+        left: 640px;
     }
     .skills {
         position: relative;
-        bottom: 280px;
+        bottom: 180px;
         left: 720px;
     }
     .grow {
         position: relative;
-        bottom: 440px;
-        left: 1000px;
+        bottom: 310px;
+        left: 980px;
     }
 }
 @media screen and (max-width: 1450px) {
     .career-path {
         position: relative;
         bottom: 400px;
-        left: 300px;
+        left: 310px;
     }
     .assess-self {
         position: relative;
-        bottom: 590px;
-        left: 600px;
+        bottom: 530px;
+        left: 610px;
     }
     .skills {
         position: relative;
-        bottom: 280px;
+        bottom: 180px;
         left: 660px;
     }
     .grow {
         position: relative;
-        bottom: 440px;
-        left: 940px;
+        bottom: 310px;
+        left: 920px;
     }
 }
 @media screen and (max-width: 1366px) {
@@ -178,18 +182,18 @@
     }
     .assess-self {
         position: relative;
-        bottom: 590px;
+        bottom: 530px;
         left: 570px;
     }
     .skills {
         position: relative;
-        bottom: 280px;
-        left: 630px;
+        bottom: 180px;
+        left: 610px;
     }
     .grow {
         position: relative;
-        bottom: 440px;
-        left: 880px;
+        bottom: 310px;
+        left: 850px;
     }
 }
 @media screen and (max-width: 1300px) {
@@ -200,25 +204,25 @@
     }
     .assess-self {
         position: relative;
-        bottom: 590px;
+        bottom: 530px;
         left: 550px;
     }
     .skills {
         position: relative;
-        bottom: 280px;
-        left: 590px;
+        bottom: 180px;
+        left: 580px;
     }
     .grow {
         position: relative;
-        bottom: 440px;
-        left: 825px;
+        bottom: 310px;
+        left: 800px;
     }
 }
 @media screen and (max-width: 1200px) {
     .career-path {
         position: relative;
-        bottom: 400px;
-        left: 250px;
+        bottom: 460px;
+        left: 280px;
     }
     .assess-self {
         position: relative;

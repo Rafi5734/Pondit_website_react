@@ -1,6 +1,4 @@
 import React from "react";
-import MainHeader from "../MainHeader/MainHeader";
-import PhoneMainHeader from "../PhoneMainHeader/PhoneMainHeader";
 import useWindowSize from "./useWindowSize";
 import "./windowSize.css";
 import HomePageImage from "../../images/01_Pondit_Homepage_Updated_homePage.png";
@@ -23,10 +21,11 @@ const WindowSize = () => {
                                     <img
                                         src={YellowImage}
                                         className="phone-yellow-image"
+                                        alt="y-img"
                                     ></img>
                                 </div>
                                 <div className="phone-yellow-image-description mt-5">
-                                    <p>Choose Your CareerPath</p>
+                                    <p className="fw-bold">Choose Your CareerPath</p>
                                     <p>
                                         Visit Our <span>Courses.</span>
                                     </p>
@@ -37,6 +36,7 @@ const WindowSize = () => {
                                     <img
                                         src={RedImage}
                                         className="phone-yellow-image"
+                                        alt="r-img"
                                     ></img>
                                 </div>
                                 <div className="phone-yellow-image-description mt-5">
@@ -51,6 +51,7 @@ const WindowSize = () => {
                                     <img
                                         src={BlueImage}
                                         className="phone-yellow-image"
+                                        alt="b-img"
                                     ></img>
                                 </div>
                                 <div className="phone-yellow-image-description mt-5">
@@ -66,6 +67,7 @@ const WindowSize = () => {
                                     <img
                                         src={GreenImage}
                                         className="phone-yellow-image"
+                                        alt="g-img"
                                     ></img>
                                 </div>
                                 <div className="phone-yellow-image-description mt-5">
@@ -83,42 +85,42 @@ const WindowSize = () => {
                         <div className="sub-main-header">
                             <img
                                 src={HomePageImage}
-                                alt="home page image"
+                                alt="home-img"
                                 className="homepage-main-image"
                             ></img>
                             <div className="career-path">
-                                <p className="career-para">
+                                <p className="career-para fw-bold" style={{color: '#ea9722'}}>
                                     CHOOSE CAREER PATH
                                 </p>
-                                <p className="career-para">Confused?</p>
-                                <p className="career-para">Ask PonditBOT</p>
+                                <p className="career-para lead">Confused?</p>
+                                <p className="career-para lead">Ask PonditBOT</p>
                             </div>
                             <div className="assess-self">
-                                <p className="career-para">ASSESS YOURSELF</p>
-                                <p className="career-para">
+                                <p className="career-para fw-bold" style={{color: '#eb483d'}}>ASSESS YOURSELF</p>
+                                <p className="career-para lead">
                                     Check your skill and
                                 </p>
-                                <p className="career-para">ready to learn.</p>
+                                <p className="career-para lead">ready to learn.</p>
                             </div>
                             <div className="skills">
-                                <p className="career-para">
+                                <p className="career-para fw-bold" style={{color: "#1abdd4"}}>
                                     IMPROVE YOUR SKILLS
                                 </p>
                                 <i className="fa-solid fa-angle-right me-2"></i>
-                                <span>404 Online classes</span>
+                                <span className="lead">404 Online classes</span>
                                 <br />
                                 <i className="fa-solid fa-angle-right me-2"></i>
-                                <span>102 Virtual Courses</span>
+                                <span className="lead">102 Virtual Courses</span>
                                 <br />
                                 <i className="fa-solid fa-angle-right me-2"></i>
-                                <span>Free Seminar</span>
+                                <span className="lead">Free Seminar</span>
                             </div>
                             <div className="grow">
-                                <p className="career-para">GROW YOUR CAREER</p>
-                                <p className="career-para">
+                                <p className="career-para fw-bold" style={{color: "#54b947"}}>GROW YOUR CAREER</p>
+                                <p className="career-para lead">
                                     Our Success Students are
                                 </p>
-                                <p className="career-para">doing well.</p>
+                                <p className="career-para lead">doing well.</p>
                             </div>
                         </div>
                     </div>
@@ -129,7 +131,3 @@ const WindowSize = () => {
 };
 
 export default WindowSize;
-
-{
-    /*  */
-}

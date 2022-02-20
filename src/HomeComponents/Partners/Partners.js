@@ -10,11 +10,11 @@ import { Container } from "react-bootstrap";
 
 const Partners = () => {
     return (
-        <div className="partners-main-section overflow-hidden">
-            <h1 className="text-center fw-normal">
+        <div className="partners-main-section overflow-hidden ">
+            <h1 className="text-center fw-normal mt-5">
                 Partners
             </h1>
-            <Container>
+            <Container className="">
                 <div className="swipper-sliders">
                     <Swiper
                         effect={"flip"}
@@ -28,36 +28,42 @@ const Partners = () => {
                             <img
                                 src="https://swiperjs.com/demos/images/nature-1.jpg"
                                 className="swiper-img"
+                                alt="SwiperSlide-img-1"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
                                 src="https://swiperjs.com/demos/images/nature-2.jpg"
                                 className="swiper-img"
+                                alt="SwiperSlide-img-1"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
                                 src="https://swiperjs.com/demos/images/nature-3.jpg"
                                 className="swiper-img"
+                                alt="SwiperSlide-img-1"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
                                 src="https://swiperjs.com/demos/images/nature-4.jpg"
                                 className="swiper-img"
+                                alt="SwiperSlide-img-1"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
                                 src="https://swiperjs.com/demos/images/nature-5.jpg"
                                 className="swiper-img"
+                                alt="SwiperSlide-img-1"
                             />
                         </SwiperSlide>
                         <SwiperSlide>
                             <img
                                 src="https://swiperjs.com/demos/images/nature-6.jpg"
                                 className="swiper-img"
+                                alt="SwiperSlide-img-1"
                             />
                         </SwiperSlide>
                     </Swiper>

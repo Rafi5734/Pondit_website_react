@@ -76,10 +76,11 @@
         height: 100vh;
         position: relative;
         bottom: 220px;
+        margin-top: 50px;
     }
     .line2-image {
         position: relative;
-        top: 10px;
+        top: 25px;
         right: 50px;
     }
 }
@@ -90,6 +91,7 @@
         height: 100vh;
         position: relative;
         bottom: 370px;
+        margin-top: 0px;
     }
     .line2-image {
         position: relative;
