@@ -7,12 +7,12 @@ import Line4 from "../../images/01_Pondit_Homepage_skill_lin4.png";
 const Skills = () => {
     return (
         <Container className="skills-main-section">
-            <img src={Line4} className="line4"></img>
+            <img src={Line4} className="line4" alt="line4-img"></img>
             <div className="skills-short-description">
-                <h1 className="text-center fw-normal skills-main-title">
+                <h1 className="text-center fw-normal skills-main-title" style={{color: '#0288d1'}}>
                     IMPROVE YOUR LEARNING SKILLS
                 </h1>
-                <p className="text-center skills-main-full-description">
+                <p className="text-center skills-main-full-description w-75 ms-auto me-auto mt-5 mb-5 lead">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Vitae, reprehenderit, maxime minima praesentium similique
                     optio unde nobis recusandae, corporis libero amet cum
@@ -47,7 +47,7 @@ const Skills = () => {
                     </Carousel>
                 </div>
                 <div className="skills-svg-image ms-5">
-                    <img src={SlideSvgImage}></img>
+                    <img src={SlideSvgImage} alt="skills-svg"></img>
                 </div>
             </div>
         </Container>
