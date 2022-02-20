@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="footer-main-section overflow-hidden">
             <Container className="footer-wrapper-1">
                 <div className="footer-logo-BG">
-                    <img src={FooterLogo}></img>
+                    <img src={FooterLogo} alt="footer-img"></img>
                 </div>
                 <p className="text-center w-50 mt-4">
                     A small river named Duden flows by their place and supplies

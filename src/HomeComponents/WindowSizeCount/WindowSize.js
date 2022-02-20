@@ -8,7 +8,7 @@ import BlueImage from "../../images/01_Pondit_Homepage_blue_leaf.png";
 import GreenImage from "../../images/01_Pondit_Homepage_green_leaf.png";
 const WindowSize = () => {
     const size = useWindowSize();
-    // console.log(size.width <= 450);
+    // console.log("Window size: " + size)
     return (
         <div className="overflow-hidden">
             <div className="overflow-hidden">
