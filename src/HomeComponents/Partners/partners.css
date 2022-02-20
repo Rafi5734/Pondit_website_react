@@ -192,3 +192,27 @@
         /* border: 1px solid #000; */
     }
 }
+@media only screen and (max-width: 412px) {
+    .partners-main-section {
+        /* border: 1px solid #000; */
+        width: 90%;
+        height: 60vh;
+        position: relative;
+        bottom: 900px;
+        left: 30px;
+        margin-top: 500px;
+    }
+
+    .mySwiper {
+        width: 100%;
+        position: relative;
+        left: -90px;
+        top: 50px;
+        /* border: 1px solid #000; */
+    }
+    .swipper-sliders {
+        position: relative;
+        left: 80px;
+    }
+    
+}
