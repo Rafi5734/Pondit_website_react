@@ -10,23 +10,23 @@ const CareerPath = () => {
         <div className="careerPath-main-second-section overflow-hidden">
             <Container className="careerPath-sub">
                 <div className="careerPath-description">
-                    <h1 className="mb-3 careerPath-main-title">
+                    <h1 className="mb-3 careerPath-main-title mt-5">
                         CHOOSE CAREER PATH TO EXPLORE YOURSELF
                     </h1>
-                    <p className="careerPath-para mb-3">
+                    <p className="careerPath-para mb-3 lead">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         Excepturi, eum necessitatibus itaque quidem consequuntur
                         blanditiis earum facere voluptas incidunt perferendis?
                     </p>
                     <ul>
-                        <li>Out of box solution</li>
-                        <li>We really care about</li>
+                        <li className="lead">Out of box solution</li>
+                        <li className="lead">We really care about</li>
                     </ul>
                 </div>
                 <div className="careerPath-images">
-                    <img src={Line1} className="careerPath-Line1"></img>
-                    <img src={FootPrint} className="careerPath-footPrint"></img>
-                    <img src={Man} className="careerPath-Man"></img>
+                    <img src={Line1} className="careerPath-Line1" alt="line1-img"></img>
+                    <img src={FootPrint} className="careerPath-footPrint" alt="foot-print-img"></img>
+                    <img src={Man} className="careerPath-Man" alt="path-img"></img>
                 </div>
             </Container>
         </div>

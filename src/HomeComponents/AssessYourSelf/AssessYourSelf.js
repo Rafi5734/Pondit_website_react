@@ -12,23 +12,24 @@ const AssessYourSelf = () => {
             <div className="assessYourSelf-main-section">
                 <div className="assessYourSelf-sub-section">
                     <div className="assessYourSelf-all-images">
-                        <img src={Line2} className="line2-image"></img>
+                        <img src={Line2} className="line2-image" alt="line2-img"></img>
                         <div className="assessYourSelf-images-inside">
-                            <img src={PencilMan} className="pencil-image"></img>
+                            <img src={PencilMan} className="pencil-image" alt="pencil-img"></img>
                         </div>
                     </div>
                     <div className="assessYourSelf-all-gallery">
-                        <h1 className="assessYourSelf-main-title">
+                        <h1 className="assessYourSelf-main-title" style={{color: "#0288d1"}}>
                             HOW TO ASSESS YOURSELF
                         </h1>
                         <div className="assessYourSelf-gallery-sub">
                             <img
                                 src={VideoGalleryImage}
                                 className="mt-5 me-3"
+                                alt="video-gallery-img"
                             ></img>
                             <div className="gallery-details mt-5">
                                 <h4>WHY NEED TO ASSESS?</h4>
-                                <p>
+                                <p className="lead">
                                     Lorem ipsum dolor sit amet, consectetur
                                     adipisicing elit. Neque iste recusandae nemo
                                     quidem, enim fuga?
@@ -39,10 +40,11 @@ const AssessYourSelf = () => {
                             <img
                                 src={PictureGalleryImage}
                                 className="mt-5 me-3"
+                                alt="pic-gallery-img"
                             ></img>
                             <div className="gallery-details mt-5">
                                 <h4>WHY YOU NEED TO ASSESS?</h4>
-                                <p>
+                                <p className="lead">
                                     Lorem ipsum dolor sit amet, consectetur
                                     adipisicing elit. Neque iste recusandae nemo
                                     quidem, enim fuga?
@@ -53,10 +55,11 @@ const AssessYourSelf = () => {
                             <img
                                 src={DocumentGalleryImage}
                                 className="mt-5 me-3"
+                                alt="gallery-img"
                             ></img>
                             <div className="gallery-details mt-5">
                                 <h4>WHY NEED TO ASSESS?</h4>
-                                <p>
+                                <p className="lead">
                                     Lorem ipsum dolor sit amet, consectetur
                                     adipisicing elit. Neque iste recusandae nemo
                                     quidem, enim fuga?
